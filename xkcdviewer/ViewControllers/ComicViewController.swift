@@ -37,7 +37,7 @@ class ComicViewController: UIViewController {
         return label
     }()
     
-    private let saveButton: UIButton = {
+    private lazy var saveButton: UIButton = {
         let button = UIButton()
         button.setTitle("Save", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)

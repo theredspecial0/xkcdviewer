@@ -18,7 +18,7 @@ class SearchViewController: UIViewController {
            return textField
     }()
        
-       private let searchButton: UIButton = {
+       private lazy var searchButton: UIButton = {
            let button = UIButton(type: .system)
            button.setTitle("Search", for: .normal)
            button.addTarget(self, action: #selector(didTapSearchButton), for: .touchUpInside)
@@ -52,7 +52,7 @@ class SearchViewController: UIViewController {
         return label
     }()
     
-    private let saveButton: UIButton = {
+    private lazy var saveButton: UIButton = {
         let button = UIButton()
         button.setTitle("Save", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)

@@ -43,7 +43,7 @@ class AboutViewController: UIViewController {
         return label
     }()
     
-    private let siteButton: UIButton = {
+    private lazy var siteButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Open Site", for: .normal)
