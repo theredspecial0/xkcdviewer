@@ -12,7 +12,7 @@
 
 ## Requirements
 
-- iOS 11.0 to 13.7
+- iOS 11.0 to 15.7
 - Xcode 11+
 
 ## Building
